@@ -12,6 +12,11 @@ plot rolls: `python plot.py`
 
 data: http://dinosaur.io/media/projects/just-dice/rolls.zip
 
-![simulation plot](http://i.imgur.com/R7kO8CH.png)
+```
+$ cat rolls.csv | wc -l                                       
+27341150
+```
+
+![simulation histogram](http://i.imgur.com/R7kO8CH.png)
 
 
