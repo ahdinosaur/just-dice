@@ -8,7 +8,7 @@ fig = plt.figure()
 ax = fig.add_subplot(111)
 
 data = np.loadtxt('rolls.csv')
-n, bins = np.histogram(data, 1000)
+n, bins = np.histogram(data, 10000)
 
 # get the corners of the rectangles for the histogram
 left = np.array(bins[:-1])
