@@ -4,4 +4,6 @@ simulates a bunch of rolls to check for randomness
 
 ## how to use
 
-`node index.js`
+simulate rolls: `node rolls.js`
+
+plot rolls: `python plot.py`
